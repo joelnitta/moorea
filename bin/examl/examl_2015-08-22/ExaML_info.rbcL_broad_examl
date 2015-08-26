@@ -1,0 +1,48 @@
+
+
+This is ExaML version 3.0.1 released by Alexandros Stamatakis, Andre Aberer, and Alexey Kozlov in November 3 2014.
+
+
+Alignment has 1185 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 2.67%
+
+ExaML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+All free model parameters will be estimated by ExaML
+GAMMA model of rate heteorgeneity, ML estimate of alpha-parameter
+
+Partition: 0
+Alignment Patterns: 1185
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+ExaML was called as follows:
+
+examl-AVX -t RAxML_parsimonyTree.StartingTree -m GAMMA -s rbcL_broad_binary.binary -n rbcL_broad_examl 
+
+
+Memory Saving Option: DISABLED
+
+Best rearrangement radius: 20
+
+Likelihood of best tree: -177006.243464
+
+
+Overall Time for 1 Inference 54143.220358
+
+Overall accumulated Time (in case of restarts): 54143.220358
+
+Likelihood   : -177006.243464
+
+
+Final tree written to:                 /n/home04/jnitta/Analysis/Moorea/bin/examl/ExaML_result.rbcL_broad_examl
+Execution Log File written to:         /n/home04/jnitta/Analysis/Moorea/bin/examl/ExaML_log.rbcL_broad_examl
+Execution information file written to: /n/home04/jnitta/Analysis/Moorea/bin/examl/ExaML_info.rbcL_broad_examl
