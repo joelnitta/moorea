@@ -5,3 +5,4 @@ Lab Notebook
 2015-08-25 examl_batch on rbcL_broad (removed V. speciosa bad seq). Submitted, never started.
 2015-08-25 r8s on three different nexus files in interactive mode. Get errors from r8s each time.
 2015-08-26 create pathd8 folder. can't get it to run yet.
+2015-08-26 update rbcL_broad.phy alignment: removed bad seqs including Vandenboschia speciosa and Polypodium vulgare. keep backup of old rbcL_broad.phy as rbcL_broad.phy.OLD
