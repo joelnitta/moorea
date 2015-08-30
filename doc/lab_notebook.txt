@@ -4,7 +4,7 @@ Lab Notebook
 
 2015-08-22 examl_batch on rbcL_broad. finished.
 
-2015-08-25 examl_batch on rbcL_broad (removed V. speciosa bad seq). Submitted, never 		started.
+2015-08-25 examl_batch on rbcL_broad (removed V. speciosa bad seq). Submitted, never started.
 
 2015-08-25 r8s on three different nexus files in interactive mode. Get errors from r8s each time.
 
@@ -13,3 +13,4 @@ Lab Notebook
 2015-08-26 update rbcL_broad.phy alignment: removed bad seqs including Vandenboschia speciosa and Polypodium vulgare. keep backup of old rbcL_broad.phy as rbcL_broad.phy.OLD
 
 2015-08-26 raxml_pthreads on rbcL_broad (new version). increase number of nodes from 10 to 16, mem from 20,000 to 32,000 mb (2,000 mb per node), amount of processing time from 1d to 7d. change to general partition. first run interactive to test.
+FAILED. For some reason, original rbcL_broad.phy was missing from data folder. try again...
