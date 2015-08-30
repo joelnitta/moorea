@@ -14,3 +14,5 @@ Lab Notebook
 
 2015-08-26 raxml_pthreads on rbcL_broad (new version). increase number of nodes from 10 to 16, mem from 20,000 to 32,000 mb (2,000 mb per node), amount of processing time from 1d to 7d. change to general partition. first run interactive to test.
 FAILED. For some reason, original rbcL_broad.phy was missing from data folder. try again...
+
+2015-08-30 same as above - raxml_pthreads on rbcL_broad (new version). put rbcL_broad.phy back in data folder, trying again. Note - now keeping all scripts in bin/ and calling from date directory in bin (don't copy into bin/date folder)
