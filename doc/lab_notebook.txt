@@ -16,3 +16,7 @@ Lab Notebook
 FAILED. For some reason, original rbcL_broad.phy was missing from data folder. try again...
 
 2015-08-30 same as above - raxml_pthreads on rbcL_broad (new version). put rbcL_broad.phy back in data folder, trying again. Note - now keeping all scripts in bin/ and calling from date directory in bin (don't copy into bin/date folder)
+
+2015-08-31  Added new blast.sh script to bin, added trnHpsbA trimmed library fasta file and unknown gameto seqs to data.
+created blast id library for trnHpsbA
+ran blast on clean gameto trnHpsbA

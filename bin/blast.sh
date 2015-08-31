@@ -39,4 +39,4 @@ blastn -query plate52rbcL.fasta -db rbcl_id.db -out blast_out_plate52rbcL.txt -o
 blastn -query gameto_2-4-15.fasta -db rbcl_id.db -out blast_out_gameto_short_2-4-15.txt -outfmt 6 -max_target_seqs 2 -task "blastn-short"
 
 # trnHpsbA (check top 2 hits)
-blastn -query trnHpsbA_all.fasta -db trnHpsbA_all.db -out blast_out_trnHpsbA_test_3-18-15.txt -outfmt 6 -max_target_seqs 2
+blastn -query ~/Analysis/moorea/data/trnHpsbA_clean_gametos_2015-08-31.fasta -db trnHpsbA_id.db -out blast_out_trnHpsbA_id_08-31-15.txt -outfmt 6 -max_target_seqs 2
