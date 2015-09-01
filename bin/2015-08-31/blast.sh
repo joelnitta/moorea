@@ -40,3 +40,7 @@ blastn -query gameto_2-4-15.fasta -db rbcl_id.db -out blast_out_gameto_short_2-4
 
 # trnHpsbA (check top 2 hits)
 blastn -query ~/Analysis/moorea/data/trnHpsbA_clean_gametos_2015-08-31.fasta -db trnHpsbA_id.db -out blast_out_trnHpsbA_id_08-31-15.txt -outfmt 6 -max_target_seqs 2
+
+# to add header row to blast output
+# $' \t ' indicates tab
+echo $'query_id\tsubject_id\t%_identity\talignment_length\tmismatches\tgap_opens\tq._start\tq._end\ts._start\ts._end\tevalue\tbit_score' | cat - blast_out_trnHpsbA_id_08-31-15.txt > blast_out_trnHpsbA_id_08-31-15_head.txt
