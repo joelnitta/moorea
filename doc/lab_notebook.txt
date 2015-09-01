@@ -20,3 +20,7 @@ FAILED. For some reason, original rbcL_broad.phy was missing from data folder. t
 2015-08-31  Added new blast.sh script to bin, added trnHpsbA trimmed library fasta file and unknown gameto seqs to data.
 created blast id library for trnHpsbA
 ran blast on clean gameto trnHpsbA
+
+2015-09-01 Running digital rads (interactive) again (ran out of time last time). 
+run in "~/Analysis/drad/2015-09-01" (not in "moorea", which has git repository)
+keep a copy of digitalrads.sh script and the final output file only in "~/Analysis/moorea/bin/2015-09-01"
