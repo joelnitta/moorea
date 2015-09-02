@@ -27,6 +27,9 @@
 # --model_type [type] — either 'snp' (default), 'bounded', or 'fixed'
 # --bound_high [num] — upper bound for epsilon, the error rate, between 0 and 1.0 (default 1).
 
+# note: maybe set M to 0 for haploid (because this is within an individual)
+# also set max_locus_stacks to 1
+
 ustacks -t fastq -f ./JNG3117_1.fq -o ./A_pla_run2 -i 10101 -p 15 -r -d -m 3 -M 2 --max_locus_stacks 3 --model_type bounded --bound_high 0.05
 ustacks -t fastq -f ./JNG3117_2.fq -o ./A_pla_run2 -i 10102 -p 15 -r -d -m 3 -M 2 --max_locus_stacks 3 --model_type bounded --bound_high 0.05
 ustacks -t fastq -f ./JNG3127_2.fq -o ./A_pla_run2 -i 10103 -p 15 -r -d -m 3 -M 2 --max_locus_stacks 3 --model_type bounded --bound_high 0.05
@@ -41,7 +44,7 @@ ustacks -t fastq -f ./JNG3126.fq -o ./A_pla_run2 -i 10106 -p 15 -r -d -m 3 -M 2 
 # A catalog can be built from any set of samples processed by the ustacks or pstacks programs. 
 # It will create a set of consensus loci, merging alleles together.
 
-# use ca. 6-8 individuals per species at a time
+# use ca. 6-8 individuals per species at a time <- no need for this, just run all together
 # run all on a single line of code
 
 # SQL id scheme for cstacks:
@@ -89,6 +92,8 @@ sstacks -b 30102 -c ./A_pla_run2/batch_20102 -s ./A_pla_run2/JNG3093 -s ./A_pla_
 
 # first populations run (store in ./A_pla_run2/populations output 1)
 # restrict to only loci that occur in all individuals (-r 1), min depth 7
+
+# maybe relax r to 0.75, increase p (sharing across populations)
 
 populations -b 20102 -P ./A_pla_run2/ -M ./popmap_A_pla.txt -r 1 -p 1 -m 7
 
