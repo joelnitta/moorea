@@ -24,3 +24,7 @@ ran blast on clean gameto trnHpsbA
 2015-09-01 Running digital rads (interactive) again (ran out of time last time). 
 run in "~/Analysis/drad/2015-09-01" (not in "moorea", which has git repository)
 keep a copy of digitalrads.sh script and the final output file only in "~/Analysis/moorea/bin/2015-09-01"
+
+2015-09-03 digital rads failed (ran out of time). Talked with Jeff, turns out Ceratopteris genome has nearly 1 million contigs, which was producing way too many files.
+Jeff rewrote script so that it takes fasta with seqs on one line each, doesn't make all those files. Try again with this version later.
+Ran blast.sh on rbcL data. Needed to reformat input gameto fasta because a few seqs had (JNG1086, JNG 1087) had ? instead of n.
