@@ -20,7 +20,4 @@ makeblastdb -in ~/Analysis/moorea/data/ceratopteris_reformat.fasta -out ~/Analys
 # save top 2 hits
 # output format is tab separated text
 
-blastn -query ~/Analysis/moorea/data/rbcL_clean_gametos_2015-09-03.fasta -db rbcl_id.db -out blast_out_rbcL_id_2015-09-03.txt -outfmt 6 -max_target_seqs 2
-
-ceratopteris_reformat.fasta
-ceratopteris_clc_k31.fasta
+blastn -query ceratoperis_out.fasta -db ~/Analysis/moorea/data/ceratopteris_db/ceratopteris.db -out ceratopteris_radblast_results.txt -outfmt 6 -max_target_seqs 4
