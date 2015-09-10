@@ -11,7 +11,7 @@
 #### make blast db ####
 #######################
 
-makeblastdb -in ~/Analysis/moorea/data/ceratopteris_reformat.fasta -out ceratopteris.db -dbtype nucl -hash_index
+makeblastdb -in ~/Analysis/moorea/data/ceratopteris_reformat.fasta -out ~/Analysis/moorea/data/ceratopteris_db/ceratopteris.db -dbtype nucl -hash_index
 
 #######################
 #### query radtags against blast db ####
