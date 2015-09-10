@@ -28,3 +28,6 @@ keep a copy of digitalrads.sh script and the final output file only in "~/Analys
 2015-09-03 digital rads failed (ran out of time). Talked with Jeff, turns out Ceratopteris genome has nearly 1 million contigs, which was producing way too many files.
 Jeff rewrote script so that it takes fasta with seqs on one line each, doesn't make all those files. Try again with this version later.
 Ran blast.sh on rbcL data. Needed to reformat input gameto fasta because a few seqs had (JNG1086, JNG 1087) had ? instead of n.
+Eventually get digital rads script to work using new version of python script.
+
+2015-09-09 created blast db using ceratopteris draft genome. Run digitalrads_blast.sh using radtags produced by digitalrads.py. Next, need to parse this output with R script to find how many radtags hit multiple contigs.
