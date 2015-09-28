@@ -31,3 +31,5 @@ Ran blast.sh on rbcL data. Needed to reformat input gameto fasta because a few s
 Eventually get digital rads script to work using new version of python script.
 
 2015-09-09 created blast db using ceratopteris draft genome. Run digitalrads_blast.sh using radtags produced by digitalrads.py. Next, need to parse this output with R script to find how many radtags hit multiple contigs.
+
+2015-09-28 installed PATHd8 locally in bin folder. Ran PATHd8 on rbcL_broad following pathd8_interactive.sh.
