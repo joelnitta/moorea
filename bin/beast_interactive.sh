@@ -1,7 +1,11 @@
 # start interactive session (note, increase mem requested to 4gb)
 srun --pty -p interact --mem 4000 -n 2 -N 1 -t 0-12:00 /bin/bash
 
-module load centos6/BEAST-2.1.2
+source new-modules.sh
+
+module load BEAST
+
+module load beagle
 
 # give beast more memory
 java -Xms1024m -Xmx1024m -jar lib\beast.jar
