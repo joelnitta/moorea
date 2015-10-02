@@ -35,3 +35,4 @@ Eventually get digital rads script to work using new version of python script.
 2015-09-28 installed PATHd8 locally in bin folder. Ran PATHd8 on rbcL_broad following pathd8_interactive.sh.
 
 2015-10-02 get PATHd8 working normally (have to use new module system). Run PATHd8 on rbcL_broad with lycophytes trimmed
+Also run on rbcL_broad, no lycophytes, no node names
