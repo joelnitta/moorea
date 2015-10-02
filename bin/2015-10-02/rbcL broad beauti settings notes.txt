@@ -1,6 +1,6 @@
 BEAST settings 2015-10-02
 
-for all versions, set starting tree to pathd8 tree
+for all versions, set starting tree to pathd8 tree, trim out lycophytes
 
 version 1:
 
@@ -18,8 +18,10 @@ ucld.mean
 	lower bound 0
 all calibration points exponential, mean=1, offset = age of fossil
 
-version 2: don't constrain any calibration point to be monophyletic
+version 2: same as above, but don't constrain any calibration point to be monophyletic
 
-version 3: yule tree model default values, don't constrain any calibration point to be monophyletic
+version 3: same as above, but:
+	speciation model is yule on default values
+	don't constrain any calibration point to be monophyletic
 
 
