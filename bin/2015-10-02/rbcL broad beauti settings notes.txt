@@ -1,0 +1,25 @@
+BEAST settings 2015-10-02
+
+for all versions, set starting tree to pathd8 tree
+
+version 1:
+
+site model: GTR
+gamma category count: 4
+estimate shape
+estimate substitution rate
+relaxed clock lognormal
+estimate clock rate
+speciation model: birth death
+	birthDeath.meanGrowthRate =  uniform between 1 and 100 (Rothfels and Schuettpelz 2014)
+	birthDeath.relativeDeathRate = uniform between 0 and 2 (Rothfels and Schuettpelz 2014)
+ucld.mean
+	set to exponential, mean=3 (apparently the mean rate from pathd8)
+	lower bound 0
+all calibration points exponential, mean=1, offset = age of fossil
+
+version 2: don't constrain any calibration point to be monophyletic
+
+version 3: yule tree model default values, don't constrain any calibration point to be monophyletic
+
+
