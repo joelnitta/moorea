@@ -13,4 +13,4 @@ module load PATHd8
 # or will get this error: There is a format error occuring at "﻿Sequenc...
 
 # run pathd8
-PATHd8 pathd8_broad_2015-10-02.txt outfile pathd8_broad_2015-10-02.out
+PATHd8 pathd8_broad_2015-10-02.txt pathd8_broad_2015-10-02.out
