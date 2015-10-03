@@ -52,6 +52,8 @@ blastn -query ~/Analysis/moorea/data/rbcL_clean_gametos_2015-09-03.fasta -db rbc
 # see what my "no fern match" sequences blast to on Genbank
 # customize output format to include taxonomic information for match
 # see http://www.metagenomics.wiki/tools/blast/blastn-output-format-6
+# wanted to include taxonomic data (using these headers: staxids sscinames sblastnames sskingdoms) but only get N/A
+# so instead look up taxonomy with R script
 
-blastn -query ~/Analysis/moorea/data/rbcL.no_match.fasta -out blast_out_no_fern_match_rbcL.txt -db nr -remote -max_target_seqs 1         -outfmt "6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore staxids sscinames sblastnames sskingdoms stitle"
-blastn -query ~/Analysis/moorea/data/trnHpsbA.no_match.fasta -out blast_out_no_fern_match_trnHpsbA.txt -db nr -remote -max_target_seqs 1 -outfmt "6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore staxids sscinames sblastnames sskingdoms stitle"
+blastn -query ~/Analysis/moorea/data/rbcL.no_match.fasta -out blast_out_no_fern_match_rbcL.txt -db nr -remote -max_target_seqs 1         -outfmt "6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore staxids stitle"
+blastn -query ~/Analysis/moorea/data/trnHpsbA.no_match.fasta -out blast_out_no_fern_match_trnHpsbA.txt -db nr -remote -max_target_seqs 1 -outfmt "6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore staxids stitle"
