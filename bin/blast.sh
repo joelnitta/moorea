@@ -1,4 +1,4 @@
-# BLAST script 2015-09-03
+# BLAST script 2015-10-03
 
 #############
 ### NOTES ###
@@ -30,16 +30,25 @@ makeblastdb -in ~/Analysis/moorea/data/rbcL_2015-09-03.fasta -out rbcL_id.db -db
 #### gameto id: query each unknown fasta sequence against database ####
 #######################################################################
 
-# save top 2 hits
 # output format is tab separated text
 
+#### save top 2 hits
+
+# rbcL
 blastn -query ~/Analysis/moorea/data/rbcL_clean_gametos_2015-09-03.fasta -db rbcl_id.db -out blast_out_rbcL_id_2015-09-03.txt -outfmt 6 -max_target_seqs 2
 
 # try this for short queries that don't show up in match above
 # blastn -query gameto_2-4-15.fasta -db rbcl_id.db -out blast_out_gameto_short_2-4-15.txt -outfmt 6 -max_target_seqs 2 -task "blastn-short"
 
-# trnHpsbA (check top 2 hits)
-# blastn -query ~/Analysis/moorea/data/trnHpsbA_clean_gametos_2015-08-31.fasta -db trnHpsbA_id.db -out blast_out_trnHpsbA_id_08-31-15.txt -outfmt 6 -max_target_seqs 2
+# trnHpsbA 
+blastn -query ~/Analysis/moorea/data/trnHpsbA_clean_gametos_2015-08-31.fasta -db trnHpsbA_id.db -out blast_out_trnHpsbA_id_08-31-15.txt -outfmt 6 -max_target_seqs 2
+
+##### save top 5 hits
+
+# rbcL
+blastn -query ~/Analysis/moorea/data/rbcL_clean_gametos_2015-09-03.fasta -db ~/Analysis/moorea/bin/2015-09-03/blast/rbcl_id.db -out blast_out_rbcL_id.txt -outfmt 6 -max_target_seqs 5
+# trnHpsbA
+blastn -query ~/Analysis/moorea/data/trnHpsbA_clean_gametos_2015-08-31.fasta -db ~/Analysis/moorea/bin/2015-08-31/trnHpsbA_id.db -out blast_out_trnHpsbA_id.txt -outfmt 6 -max_target_seqs 5
 
 # to add header row to blast output
 # $' \t ' indicates tab
