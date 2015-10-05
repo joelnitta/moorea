@@ -36,3 +36,5 @@ Eventually get digital rads script to work using new version of python script.
 
 2015-10-02 get PATHd8 working normally (have to use new module system). Run PATHd8 on rbcL_broad with lycophytes trimmed
 Also run on rbcL_broad, no lycophytes, no node names
+
+2015-10-04 ran remote blast on "no fern match" sequences from R script

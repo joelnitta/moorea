@@ -64,5 +64,5 @@ blastn -query ~/Analysis/moorea/data/trnHpsbA_clean_gametos_2015-08-31.fasta -db
 # wanted to include taxonomic data (using these headers: staxids sscinames sblastnames sskingdoms) but only get N/A
 # so instead look up taxonomy with R script
 
-blastn -query ~/R/moorea/bin/2015-10-03/rbcL.no_match.fasta -out blast_out_no_fern_match_rbcL.txt -db nr -remote -max_target_seqs 1         -outfmt "6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore staxids stitle"
-blastn -query ~/R/moorea/bin/2015-10-03/trnHpsbA.no_match.fasta -out blast_out_no_fern_match_trnHpsbA.txt -db nr -remote -max_target_seqs 1 -outfmt "6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore staxids stitle"
+blastn -query ~/R/moorea/bin/2015-10-04/rbcL.no_match.fasta -out blast_out_no_fern_match_rbcL.txt -db nr -remote -max_target_seqs 1         -outfmt "6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore staxids stitle"
+blastn -query ~/R/moorea/bin/2015-10-04/trnHpsbA.no_match.fasta -out blast_out_no_fern_match_trnHpsbA.txt -db nr -remote -max_target_seqs 1 -outfmt "6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore staxids stitle"
