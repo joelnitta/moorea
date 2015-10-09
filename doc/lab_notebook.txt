@@ -38,3 +38,6 @@ Eventually get digital rads script to work using new version of python script.
 Also run on rbcL_broad, no lycophytes, no node names
 
 2015-10-04 ran remote blast on "no fern match" sequences from R script
+
+2015-10-09 Setting up PHLAWD. First step is to download GenBank plant database. Ran phlawd_db.sh on bin/2015-10-09/db.setup
+Note that db is saved outside of Moorea git repo (in ~/Analysis/genbank)
