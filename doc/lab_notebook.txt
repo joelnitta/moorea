@@ -41,3 +41,11 @@ Also run on rbcL_broad, no lycophytes, no node names
 
 2015-10-09 Setting up PHLAWD. First step is to download GenBank plant database. Ran phlawd_db.sh on bin/2015-10-09/db.setup
 Note that db is saved outside of Moorea git repo (in ~/Analysis/genbank)
+Ran out of time during interactive session
+
+2015-10-10 Run PHLAWD set up again using batch script phlawd_db.sh
+Get error that I've exceeded disk space usage (39 Gb)
+
+2015-10-11 Try to delete some old folders to free up disk space
+Analysis/drad (old digital rads output that has way too many small files)
+rm -R taking way too long! only succeeded in deleting partially. Need help.
