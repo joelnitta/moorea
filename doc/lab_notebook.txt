@@ -49,3 +49,8 @@ Get error that I've exceeded disk space usage (39 Gb)
 2015-10-11 Try to delete some old folders to free up disk space
 Analysis/drad (old digital rads output that has way too many small files)
 rm -R taking way too long! only succeeded in deleting partially. Need help.
+
+(note: successfully deleted old drad folder that was taking up too much space)
+
+2015-11-25 finally got phlawd database installed at /n/regal/informatics_public/apps/phlawd/pln.db
+Tried to run using Chuck's config file, but only got 400 taxa back. Need to fix.
