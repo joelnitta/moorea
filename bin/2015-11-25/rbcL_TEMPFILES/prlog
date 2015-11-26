@@ -1,0 +1,4 @@
+Started Wed Nov 25 21:27:44 2015
+muscle -maxmb 5000 -spscore rbcL_TEMPFILES/TEMPOUT.PROFILE -log rbcL_TEMPFILES/prlog 
+File=rbcL_TEMPFILES/TEMPOUT.PROFILE;SP=3.44e+04
+Finished Wed Nov 25 21:27:44 2015
