@@ -54,3 +54,5 @@ rm -R taking way too long! only succeeded in deleting partially. Need help.
 
 2015-11-25 finally got phlawd database installed at /n/regal/informatics_public/apps/phlawd/pln.db
 Tried to run using Chuck's config file, but only got 400 taxa back. Need to fix.
+
+2015-11-27 Chuck's rbcL alignment was bad. Remade with my own sequences, ran again using lab node ("davis"). This time worked, get 4000 taxa. Delete temporary working file created by phlawd because it's too big for github (>100 mb).
