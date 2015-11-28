@@ -2,7 +2,7 @@
 #
 #SBATCH -n 1               			        # Number of cores
 #SBATCH -N 1                			    # Ensure that all cores are on one machine
-#SBATCH -p serial_requeue				    # Partition to submit to
+#SBATCH -p davis				    # Partition to submit to
 #SBATCH --mem=12000         			        # Memory pool for all cores. Request 12GB
 #SBATCH -o phlawd_db.out     			    # File to which STDOUT will be written
 #SBATCH -e phlawd_db.err       			    # File to which STDERR will be written
