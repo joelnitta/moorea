@@ -1,6 +1,6 @@
 clade = Moniliformopses
 search = atpb,atpB
-gene = atpA
+gene = atpB
 db = /n/regal/informatics_public/apps/phlawd/pln.db
 knownfile = atpB.keep
 numthreads = 1
