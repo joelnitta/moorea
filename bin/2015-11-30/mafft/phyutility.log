@@ -1,6 +1,0 @@
-starting log: 01/12/15 07:32
-concat
-in filename: rbcL_broad.aln
-in filename: atpA_final.aln
-in filename: atpB_final.aln
-outfile: all_broad.aln
