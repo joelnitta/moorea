@@ -1,0 +1,8 @@
+ncbi_tax_id	gi_number	edited_name
+167748	161367281	Marsilea_mutica
+173873	373222406	Coryphopteris_seemannii
+49543	333411704	Vandenboschia_radicans
+32175	333411722	Pteris_fauriei
+872904	333411736	Thelypteris_uraiensis
+84614	333411748	Cyrtomium_falcatum
+187345	333411762	Colysis_wrightii

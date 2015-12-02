@@ -1,0 +1,102 @@
+assembly
+number of threads: 1
+clade name: Moniliformopses
+search: matk
+search: matK
+gene name: matK
+gene database: matK.db
+mad cutoff: 0.01
+coverage: 0.8
+identity: 0.8
+connected to matK.db
+database created
+search number 107586
+connected to /n/regal/informatics_public/apps/phlawd/pln.db
+Found 1 taxon ids:
+241806
+Will be using 241806
+first: 1218
+blasted: 7
+dups: 7
+adding sequences to database: matK.db
+starting saturation
+Moniliformopses: 241806 7 0
+aligning
+mafft matK_TEMPFILES/tempfile > matK_TEMPFILES/outfile 2> matK_TEMPFILES/mafft.out
+calculating distance
+median: 0.178756
+mad: 0.0693846
+Polypodiidae: 1521262 7 0
+aligning
+mafft matK_TEMPFILES/tempfile > matK_TEMPFILES/outfile 2> matK_TEMPFILES/mafft.out
+calculating distance
+median: 0.178756
+mad: 0.0693846
+Hymenophyllales: 693760 1 0 7
+adding alignment to database: matK.db
+Salviniales: 74353 1 0 6
+adding alignment to database: matK.db
+Polypodiales: 3268 5 0
+aligning
+mafft matK_TEMPFILES/tempfile > matK_TEMPFILES/outfile 2> matK_TEMPFILES/mafft.out
+calculating distance
+median: 0.0530279
+mad: 0.0572566
+eupolypods I: 1203512 2 0
+aligning
+mafft matK_TEMPFILES/tempfile > matK_TEMPFILES/outfile 2> matK_TEMPFILES/mafft.out
+mad: 0
+adding alignment to database: matK.db
+eupolypods II: 1203511 2 0
+aligning
+mafft matK_TEMPFILES/tempfile > matK_TEMPFILES/outfile 2> matK_TEMPFILES/mafft.out
+mad: 0
+adding alignment to database: matK.db
+Pteridaceae: 13819 1 0 1
+adding alignment to database: matK.db
+leftovers: 0
+picking where leftovers should go
+finished with sequence processing
+getting alignments
+starting run
+ncbi guide tree
+241806
+clade=241806
+distances complete: 693760 1
+distances complete: 74353 2
+distances complete: 1203512 3
+distances complete: 1203511 4
+distances complete: 13819 5
+profiling
+writing everything to record.log
+aligning
+muscle -profile -maxmb 5000 -in1 matK_TEMPFILES/TEMP1.profile -in2 matK_TEMPFILES/TEMP2.profile -out matK_TEMPFILES/TEMPOUT.PROFILE 2> matK_TEMPFILES/muscle.out
+3204 bytes
+cleaning seqs for TEMPOUT.PROFILE
+adding sequences to profile alignment table
+aligning
+muscle -profile -maxmb 5000 -in1 matK_TEMPFILES/TEMP1.profile -in2 matK_TEMPFILES/TEMP2.profile -out matK_TEMPFILES/TEMPOUT.PROFILE 2> matK_TEMPFILES/muscle.out
+5456 bytes
+aligning
+muscle -profile -maxmb 5000 -in1 matK_TEMPFILES/TEMP1.profile -in2 matK_TEMPFILES/TEMP2.profile -out matK_TEMPFILES/TEMPOUT.PROFILE 2> matK_TEMPFILES/muscle.out
+4044 bytes
+aligning
+muscle -profile -maxmb 5000 -in1 matK_TEMPFILES/TEMP1.profile -in2 matK_TEMPFILES/TEMP2.profile -out matK_TEMPFILES/TEMPOUT.PROFILE 2> matK_TEMPFILES/muscle.out
+5456 bytes
+cleaning seqs for TEMPOUT.PROFILE
+adding sequences to profile alignment table
+aligning
+muscle -profile -maxmb 5000 -in1 matK_TEMPFILES/TEMP1.profile -in2 matK_TEMPFILES/TEMP2.profile -out matK_TEMPFILES/TEMPOUT.PROFILE 2> matK_TEMPFILES/muscle.out
+6840 bytes
+cleaning seqs for TEMPOUT.PROFILE
+adding sequences to profile alignment table
+processing profile files
+6
+8
+aligning
+muscle -profile -maxmb 5000 -in1 matK_TEMPFILES/TEMP1.profile -in2 matK_TEMPFILES/TEMP2.profile -out matK_TEMPFILES/TEMPOUT.PROFILE 2> matK_TEMPFILES/muscle.out
+11389 bytes
+cleaning seqs for TEMPOUT.PROFILE
+adding sequences to profile alignment table
+writing final alignment
+profile run completed

@@ -1,0 +1,14 @@
+
+MUSCLE v3.8.31 by Robert C. Edgar
+
+http://www.drive5.com/muscle
+This software is donated to the public domain.
+Please cite: Edgar, R.C. Nucleic Acids Res 32(5), 1792-97.
+
+00:00:00    10 MB(-1%)  Reading matK_TEMPFILES/TEMP1.profile
+00:00:00    11 MB(-1%)  2 seqs 1572 cols
+00:00:00    11 MB(-1%)  Reading matK_TEMPFILES/TEMP2.profile
+00:00:00    11 MB(-1%)  5 seqs 1342 cols
+00:00:00    12 MB(-1%)  Aligning profiles
+00:00:00    19 MB(-1%)  Building output
+00:00:00    19 MB(-1%)  Writing output
