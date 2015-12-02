@@ -4,8 +4,8 @@ gene = matK
 db = /n/regal/informatics_public/apps/phlawd/pln.db
 knownfile = matK.keep
 numthreads = 1
-mad = 0.05
-coverage = 0.4
+mad = 0.01
+coverage = 0.1
 identity = 0.1
 
 
