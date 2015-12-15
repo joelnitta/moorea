@@ -20,4 +20,4 @@ source new-modules.sh
 module load fasttree
 
 # run fasttree on alignment
-FastTree -gtr -nt all_broad.aln.fasta > all_broad.tre
+FastTree -gtr -nt all_broad.aln.fasta > all_broad_fasttree.tre
