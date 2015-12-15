@@ -33,9 +33,9 @@ makeblastdb -in ~/R/moorea/bin/2015-12-15/trnHpsbA_clean_sporos.fasta -out trnHp
 ##### save top 5 hits
 
 # rbcL
-blastn -query ~/R/moorea/data/rbcL_clean_gametos_2015-12-08.fasta -db rbcl_id.db -out blast_out_rbcL_id.txt -outfmt 6 -max_target_seqs 5
+blastn -query ~/R/moorea/data/rbcL_clean_gametos.fasta -db rbcl_id.db -out blast_out_rbcL_id.txt -outfmt 6 -max_target_seqs 5
 # trnHpsbA
-blastn -query ~/R/moorea/data/trnHpsbA_clean_gametos_2015-12-08.fasta -db trnHpsbA_id.db -out blast_out_trnHpsbA_id.txt -outfmt 6 -max_target_seqs 5
+blastn -query ~/R/moorea/data/trnHpsbA_clean_gametos.fasta -db trnHpsbA_id.db -out blast_out_trnHpsbA_id.txt -outfmt 6 -max_target_seqs 5
 
 # to add header row to blast output
 # $' \t ' indicates tab
@@ -51,5 +51,5 @@ blastn -query ~/R/moorea/data/trnHpsbA_clean_gametos_2015-12-08.fasta -db trnHps
 # wanted to include taxonomic data (using these headers: staxids sscinames sblastnames sskingdoms) but only get N/A
 # so instead look up taxonomy with R script
 
-# blastn -query ~/R/moorea/bin/2015-12-08/trnHpsbA.no_match.fasta -out blast_out_no_fern_match_trnHpsbA.txt -db nr -remote -max_target_seqs 1 -outfmt 6
-# blastn -query ~/R/moorea/bin/2015-12-08/rbcL.no_match.fasta -out blast_out_no_fern_match_rbcL.txt -db nr -remote -max_target_seqs 1 -outfmt 6
+# blastn -query ~/R/moorea/bin/2015-12-15/trnHpsbA.no_match.fasta -out blast_out_no_fern_match_trnHpsbA.txt -db nr -remote -max_target_seqs 1 -outfmt 6
+# blastn -query ~/R/moorea/bin/2015-12-15/rbcL.no_match.fasta -out blast_out_no_fern_match_rbcL.txt -db nr -remote -max_target_seqs 1 -outfmt 6
