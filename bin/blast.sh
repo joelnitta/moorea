@@ -1,4 +1,4 @@
-# BLAST script 2015-10-03
+# BLAST script 2015-12-15
 
 #############
 ### NOTES ###
@@ -14,41 +14,28 @@
 #######################
 
 # rbcL
-makeblastdb -in ~/Analysis/moorea/data/rbcL_2015-09-03.fasta -out rbcL_id.db -dbtype nucl -hash_index
-
+makeblastdb -in ~/R/moorea/bin/2015-12-15/rbcL_clean_sporos.fasta -out rbcL_id.db -dbtype nucl -hash_index
 # trnHpsbA
-# makeblastdb -in ~/Analysis/moorea/data/trnHpsbA_2015-08-30.fasta -out trnHpsbA_id.db -dbtype nucl -hash_index
+makeblastdb -in ~/R/moorea/bin/2015-12-15/trnHpsbA_clean_sporos.fasta -out trnHpsbA_id.db -dbtype nucl -hash_index
 
 #########################################################
 #### testing the barcode: query library against self ####
 #########################################################
 
-# blastn -query rbcL.fasta -db rbcl_test.db -out rbcL_test.xls -outfmt 6 -max_target_seqs 2
-# blastn -query trnHpsbA_all.fasta -db trnHpsbA_all.db -out trnHpsbA_all_test.xls -outfmt 6 -max_target_seqs 2
+# blastn -query ~/R/moorea/bin/2015-12-15/rbcL_clean_sporos.fasta -db rbcL_id.db -out rbcL_test.xls -outfmt 6 -max_target_seqs 2
+# blastn -query ~/R/moorea/bin/2015-12-15/trnHpsbA_clean_sporos.fasta -db trnHpsbA_id.db -out trnHpsbA_test.xls -outfmt 6 -max_target_seqs 2
 
 #######################################################################
 #### gameto id: query each unknown fasta sequence against database ####
 #######################################################################
 
 # output format is tab separated text
-
-#### save top 2 hits
-
-# rbcL
-blastn -query ~/Analysis/moorea/data/rbcL_clean_gametos_2015-09-03.fasta -db rbcl_id.db -out blast_out_rbcL_id_2015-09-03.txt -outfmt 6 -max_target_seqs 2
-
-# try this for short queries that don't show up in match above
-# blastn -query gameto_2-4-15.fasta -db rbcl_id.db -out blast_out_gameto_short_2-4-15.txt -outfmt 6 -max_target_seqs 2 -task "blastn-short"
-
-# trnHpsbA 
-blastn -query ~/Analysis/moorea/data/trnHpsbA_clean_gametos_2015-08-31.fasta -db trnHpsbA_id.db -out blast_out_trnHpsbA_id_08-31-15.txt -outfmt 6 -max_target_seqs 2
-
 ##### save top 5 hits
 
 # rbcL
-blastn -query ~/Analysis/moorea/data/rbcL_clean_gametos_2015-09-03.fasta -db ~/Analysis/moorea/bin/2015-09-03/blast/rbcl_id.db -out blast_out_rbcL_id.txt -outfmt 6 -max_target_seqs 5
+blastn -query ~/R/moorea/data/rbcL_clean_gametos_2015-12-08.fasta -db rbcl_id.db -out blast_out_rbcL_id.txt -outfmt 6 -max_target_seqs 5
 # trnHpsbA
-blastn -query ~/Analysis/moorea/data/trnHpsbA_clean_gametos_2015-08-31.fasta -db ~/Analysis/moorea/bin/2015-08-31/trnHpsbA_id.db -out blast_out_trnHpsbA_id.txt -outfmt 6 -max_target_seqs 5
+blastn -query ~/R/moorea/data/trnHpsbA_clean_gametos_2015-12-08.fasta -db trnHpsbA_id.db -out blast_out_trnHpsbA_id.txt -outfmt 6 -max_target_seqs 5
 
 # to add header row to blast output
 # $' \t ' indicates tab
@@ -64,5 +51,8 @@ blastn -query ~/Analysis/moorea/data/trnHpsbA_clean_gametos_2015-08-31.fasta -db
 # wanted to include taxonomic data (using these headers: staxids sscinames sblastnames sskingdoms) but only get N/A
 # so instead look up taxonomy with R script
 
-blastn -query ~/R/moorea/bin/2015-10-04/rbcL.no_match.fasta -out blast_out_no_fern_match_rbcL.txt -db nr -remote -max_target_seqs 1         -outfmt "6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore staxids stitle"
-blastn -query ~/R/moorea/bin/2015-10-04/trnHpsbA.no_match.fasta -out blast_out_no_fern_match_trnHpsbA.txt -db nr -remote -max_target_seqs 1 -outfmt "6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore staxids stitle"
+# blastn -query ~/R/moorea/bin/2015-10-04/rbcL.no_match.fasta -out blast_out_no_fern_match_rbcL.txt -db nr -remote -max_target_seqs 1         -outfmt "6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore staxids stitle"
+# blastn -query ~/R/moorea/bin/2015-10-04/trnHpsbA.no_match.fasta -out blast_out_no_fern_match_trnHpsbA.txt -db nr -remote -max_target_seqs 1 -outfmt "6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore staxids stitle"
+
+blastn -query ~/R/moorea/bin/2015-12-08/trnHpsbA.no_match.fasta -out blast_out_no_fern_match_trnHpsbA.txt -db nr -remote -max_target_seqs 1 -outfmt 6
+blastn -query ~/R/moorea/bin/2015-12-08/rbcL.no_match.fasta -out blast_out_no_fern_match_rbcL.txt -db nr -remote -max_target_seqs 1 -outfmt 6
