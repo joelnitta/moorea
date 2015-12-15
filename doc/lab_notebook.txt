@@ -62,3 +62,5 @@ Tried to run using Chuck's config file, but only got 400 taxa back. Need to fix.
 2015-11-29 run FastTree on rbcL phlawd alignment (after removing bad seqs and adding outgroup), atpA and atpB
 
 2015-11-30 run phlawd on matk, mafft on rbcL, atpA, atpB
+
+2015-12-15 run Blast workflow. run mafft on new rbcL alignment, concatenate, run fasttree.

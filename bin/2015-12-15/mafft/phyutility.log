@@ -1,0 +1,6 @@
+starting log: 15/12/15 02:54
+concat
+in filename: ../../2015-11-30/mafft/atpA_final.aln
+in filename: ../../2015-11-30/mafft/atpB_final.aln
+in filename: rbcL_broad.aln
+outfile: all_broad.aln

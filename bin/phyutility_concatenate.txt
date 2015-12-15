@@ -1,0 +1,3 @@
+# phyutility concatenate command
+
+phyutility -concat -in ../../2015-11-30/mafft/atpA_final.aln ../../2015-11-30/mafft/atpB_final.aln rbcL_broad.aln -out all_broad.aln
