@@ -1,0 +1,34 @@
+
+
+This is ExaML version 3.0.1 released by Alexandros Stamatakis, Andre Aberer, and Alexey Kozlov in November 3 2014.
+
+
+Alignment has 4173 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 58.83%
+
+ExaML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+All free model parameters will be estimated by ExaML
+GAMMA model of rate heteorgeneity, ML estimate of alpha-parameter
+
+Partition: 0
+Alignment Patterns: 4173
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+ExaML was called as follows:
+
+examl-AVX -t RAxML_parsimonyTree.StartingTree -m GAMMA -s all_broad.binary -n all_broad_examl 
+
+
+Memory Saving Option: DISABLED
+
+Best rearrangement radius: 15
