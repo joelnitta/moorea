@@ -72,3 +72,5 @@ Tried to run using Chuck's config file, but only got 400 taxa back. Need to fix.
 2015-12-08 run BLAST workflow
 
 2015-12-15 run BLAST workflow. run mafft on new rbcL alignment, concatenate, run fasttree.
+
+2015-12-17 run pathD8 on fasttree results. remove problematic Serpocaulon_triseriale rbcL seq from alignment, run examl again
