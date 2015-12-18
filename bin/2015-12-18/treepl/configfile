@@ -1,4 +1,4 @@
-treefile = ~/Analysis/moorea/bin/2015-12-15/fasttree/all_broad_fasttree.tre
+treefile = fasttree_all_broad_reroot.tre
 smooth = 100
 numsites = 4778
 mrca = Vascular_Plants Huperzia_lucidula Grammitis_dorsipila
@@ -59,6 +59,7 @@ min = Woodwordia 55.8
 min = Lophosoria 112
 min = Loxomataceae 112
 outfile = all_broad_treePL.tre
-thorough
-prime
-cv
+opt = 1
+moredetail
+optad = 1
+optcvad = 3
