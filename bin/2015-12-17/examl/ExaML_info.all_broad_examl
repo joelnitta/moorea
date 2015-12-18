@@ -30,3 +30,5 @@ examl-AVX -t RAxML_parsimonyTree.StartingTree -m GAMMA -s all_broad.binary -n al
 
 
 Memory Saving Option: DISABLED
+
+Best rearrangement radius: 15
