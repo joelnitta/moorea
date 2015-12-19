@@ -59,8 +59,9 @@ min = Woodwordia 55.8
 min = Lophosoria 112
 min = Loxomataceae 112
 outfile = all_broad_treePL.tre
+thorough
 opt = 1
 moredetail
 optad = 1
 optcvad = 3
-nthreads = 6
+randomcv
