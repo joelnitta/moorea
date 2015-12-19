@@ -32,3 +32,17 @@ examl-AVX -t RAxML_parsimonyTree.StartingTree -m GAMMA -s all_broad.binary -n al
 Memory Saving Option: DISABLED
 
 Best rearrangement radius: 15
+
+Likelihood of best tree: -415469.747317
+
+
+Overall Time for 1 Inference 142260.366155
+
+Overall accumulated Time (in case of restarts): 142260.366155
+
+Likelihood   : -415469.747317
+
+
+Final tree written to:                 /n/home04/jnitta/Analysis/moorea/bin/2015-12-17/examl/ExaML_result.all_broad_examl
+Execution Log File written to:         /n/home04/jnitta/Analysis/moorea/bin/2015-12-17/examl/ExaML_log.all_broad_examl
+Execution information file written to: /n/home04/jnitta/Analysis/moorea/bin/2015-12-17/examl/ExaML_info.all_broad_examl
