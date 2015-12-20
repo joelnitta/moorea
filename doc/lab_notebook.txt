@@ -74,3 +74,10 @@ Tried to run using Chuck's config file, but only got 400 taxa back. Need to fix.
 2015-12-15 run BLAST workflow. run mafft on new rbcL alignment, concatenate, run fasttree.
 
 2015-12-17 run pathD8 on fasttree results. remove problematic Serpocaulon_triseriale rbcL seq from alignment, run examl again
+
+2015-12-18 run treePL on fasttree results three times. Run with "prime" first to determine parameters.
+treepl1 = ran with lambda = 100. Branch lengths look too long, very similar across the tree.
+treepl2 = ran with lambda = 10. Looks better.
+treepl3 = try cross validation (no need to specify lambda since we're testing different values). CV.out shows that lambda = 0.1 gives lowest chi-squared error, so we should use this one.
+
+2015-12-20 run treepl on fasttree results again. First run "thorough" and "prime" with lambda = 0.1
