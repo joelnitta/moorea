@@ -60,4 +60,9 @@ min = Lophosoria 112
 min = Loxomataceae 112
 outfile = all_broad_treePL.tre
 thorough
-prime
+nthreads = 10
+plsimaniter = 100000
+opt = 1
+moredetail
+optad = 1
+optcvad = 0
