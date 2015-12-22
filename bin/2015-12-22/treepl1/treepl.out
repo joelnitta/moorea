@@ -1,0 +1,380 @@
+outfile: all_broad_trim_treePL.tre
+set thorough: true (MAY TAKE A WHILE)
+PRIMING the optimization parameters and then exiting
+setting the maximum number of threads to 10
+finished reading config file
+tiny branch length at Angiopteris_evecta. setting to 0.00020929259
+tiny branch length at Hymenophyllum_pallidum. setting to 0.00020929259
+tiny branch length at Sticherus_tahitensis. setting to 0.00020929259
+tiny branch length at Cyathea_epaleata. setting to 0.00020929259
+tiny branch length at Hypolepis_dicksonioides. setting to 0.00020929259
+tiny branch length at Vaginularia_paradoxa. setting to 0.00020929259
+tiny branch length at Asplenium_contiguum. setting to 0.00020929259
+tiny branch length at Asplenium_affine. setting to 0.00020929259
+tiny branch length at Asplenium_nidus. setting to 0.00020929259
+tiny branch length at Chingia_longissima. setting to 0.00020929259
+tiny branch length at Plesioneuron_attenuatum. setting to 0.00020929259
+tiny branch length at Blechnum_vulcanicum. setting to 0.00020929259
+tiny branch length at Deparia_petersenii. setting to 0.00020929259
+tiny branch length at Ctenitis_sciaphila. setting to 0.00020929259
+tiny branch length at Nephrolepis_exaltata. setting to 0.00020929259
+tiny branch length at Nephrolepis_biserrata. setting to 0.00020929259
+tiny branch length at Wibelia_denticulata. setting to 0.00020929259
+tiny branch length at Microsorum_commutatum. setting to 0.00020929259
+tiny branch length at Microsorum_grossum. setting to 0.00020929259
+tiny branch length at Microsorum_xmaximum. setting to 0.00020929259
+tiny branch length at Dasygrammitis_purpurascens. setting to 0.00020929259
+tiny branch length at Prosaptia_contigua. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+tiny branch length at internal node. setting to 0.00020929259
+setting Anemia min: 136.4
+setting Angiosperms min: 136
+setting Athyrioids min: 37.2
+setting Azolla min: 83.5
+setting Ceratopteris min: 37.2
+setting Ceratopteris_Acrostichum min: 65.5
+setting Conifers min: 306
+setting Cyathea_Alsophila min: 93.5
+setting Cyclosoroids min: 33.9
+setting Dennstaediod_sub min: 70.6
+setting Euphylls min: 411
+setting Gleicheniaceae_sub min: 99.6
+setting Horsetails min: 385
+setting Lindsaeoids min: 99.6
+setting Lophosoria min: 112
+setting Loxomataceae min: 112
+setting Lygodium min: 167.7
+setting Marattia min: 206
+setting Marsileaceae min: 140.2
+setting Matoniaceae min: 228
+setting Onoclea min: 55.8
+setting Osmunda min: 199.6
+setting Osmundaceae min: 299
+setting Pilularia min: 83.5
+setting Polygrammoids min: 33.9
+setting Pteroids min: 93.5
+setting Scaly_tree_ferns min: 145.5
+setting Seed_plants min: 318
+setting Stromatopteris min: 89.3
+setting Woodwordia min: 55.8
+setting Euphylls max: 411
+preorder prep
+calculating character durations
+setting min and max
+setting up all constraints
+getting feasible start dates
+start rate 0.00034491472
+numparams:2743
+initial calc: 1228707.9
+LF SIM
+exit siman: 121530.69
+now priming regular
+nfeval: 5 rc: Converged (|f_n-f_(n-1)| ~= 0)
+ final: 121530.69 diff: 0
+setting NLOPT: LD_LBFGS 
+result: 3
+ final: 31973.169 diff: 89557.522
+setting NLOPT: LD_TNEWTON_PRECOND_RESTART
+result: 5
+ final: 89135.813 diff: 32394.878
+setting NLOPT: LD_MMA
+result: 3
+ final: 121530.22 diff: 0.47551229
+setting NLOPT: LD_VAR2 
+result: 5
+ final: 44244.592 diff: 77286.099
+setting NLOPT : LN_SBPLX 
+result: 5
+ final: 111172.67 diff: 10358.024
+----
+now priming AD
+nfeval: 3 rc: Unable to progress
+ final: 121530.69 diff: 0
+setting NLOPT: LD_LBFGS 
+result: 3
+ final: 31973.133 diff: 89557.558
+setting NLOPT: LD_TNEWTON_PRECOND_RESTART
+result: 5
+ final: 92389.592 diff: 29141.099
+setting NLOPT: LD_MMA
+result: 3
+ final: 121530.22 diff: 0.47550866
+setting NLOPT: LD_VAR2 
+result: 5
+ final: 46485.956 diff: 75044.735
+setting NLOPT : LN_SBPLX 
+result: 5
+ final: 111172.67 diff: 10358.024
+----
+now priming CV (AD)
+nfeval: 206 rc: Linear search failed
+ final: 96158.591 diff: 25372.1
+setting NLOPT parallel : LD_LBFGS 
+result: -1
+ final: 87322.632 diff: 34208.059
+setting NLOPT parallel : LD_TNEWTON_PRECOND_RESTART
+result: -1
+ final: 108740.44 diff: 12790.246
+setting NLOPT parallel : LD_MMA
+result: 4
+ final: 82417.839 diff: 39112.852
+setting NLOPT parallel : LD_VAR2 
+result: -1
+ final: 81162.263 diff: 40368.428
+setting NLOPT parallel : LN_SBPLX 
+result: 5
+ final: 92286.874 diff: 29243.817
+best: 1(1) bestad: 1 (1) bestcv: 4 (0)
+PLACE THE LINES BELOW IN THE CONFIGURATION FILE
+opt = 1
+moredetail
+optad = 1
+moredetailad
+optcvad = 4
