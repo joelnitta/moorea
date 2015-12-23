@@ -81,3 +81,7 @@ treepl2 = ran with lambda = 10. Looks better.
 treepl3 = try cross validation (no need to specify lambda since we're testing different values). CV.out shows that lambda = 0.1 gives lowest chi-squared error, so we should use this one.
 
 2015-12-20 run treepl on fasttree results again. First run "thorough" and "prime" with lambda = 0.1
+
+2015-12-21 treepl1: run treepl on fasttree after trimming out OTUs with short branchlengths - get much better results! treepl2: run cross-validation on trimmed fasttree tree
+
+2015-12-22 treepl1: cross validation indicates smoothing parameter of 0.01 is optimal, so run with "prime" option on this. treepl2: run with smooth = 0.01, results from prime on trimmed fasttree
