@@ -85,3 +85,7 @@ treepl3 = try cross validation (no need to specify lambda since we're testing di
 2015-12-21 treepl1: run treepl on fasttree after trimming out OTUs with short branchlengths - get much better results! treepl2: run cross-validation on trimmed fasttree tree
 
 2015-12-22 treepl1: cross validation indicates smoothing parameter of 0.01 is optimal, so run with "prime" option on this. treepl2: run with smooth = 0.01, results from prime on trimmed fasttree
+
+2015-12-23 run raxml on all_broad, after fixing Serpocaulon triseriale. Time was set to 4 days... timed out with one ML tree left to go!
+
+2015-12-27 run raxml AGAIN on all_broad. Set n cores to 8 following raxml manual (ca. 4000 alignment patterns / 500 = 8 cores). Set maxtime to 7 days.
