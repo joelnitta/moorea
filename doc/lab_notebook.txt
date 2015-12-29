@@ -89,3 +89,5 @@ treepl3 = try cross validation (no need to specify lambda since we're testing di
 2015-12-23 run raxml on all_broad, after fixing Serpocaulon triseriale. Time was set to 4 days... timed out with one ML tree left to go!
 
 2015-12-27 run raxml AGAIN on all_broad. Set n cores to 8 following raxml manual (ca. 4000 alignment patterns / 500 = 8 cores). Set maxtime to 7 days.
+
+2015-12-28 setting n cores to 8 was apparently a bad idea.. first ML search took 15 hours! (instead of ca. 5). Kill job, start again with reduced alignment and back to n=16 cores.
