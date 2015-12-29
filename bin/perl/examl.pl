@@ -2,12 +2,11 @@
 use strict;
 use warnings;
 #base name of bootstrap replicate file names
-my $bsname = "all_broad.aln.phy.BS";
 my $i;
-for($i = 0; $i < 10; $i++)
+for($i = 0; $i < 100; $i++)
  {
  #open a queue submission file that we will populate with commands
- open (F, ">", "bsinf.$i");
+ open (F, ">", "bootjob.$i");
  # the stuff below is cluster and installation-specific
  print F "#!/bin/bash\n";
  print F "#\n";
@@ -16,7 +15,7 @@ for($i = 0; $i < 10; $i++)
  print F "#SBATCH -p davis\n";
  print F "#SBATCH -o examl.out$i\n";
  print F "#SBATCH -e examl.err$i\n";
- print F "#SBATCH -t 4-0:00\n";
+ print F "#SBATCH -t 7-0:00\n";
  print F "#\n";
  print F "module load centos6/ExaML-3.0.1\n";
  
@@ -26,5 +25,5 @@ for($i = 0; $i < 10; $i++)
  # done editing the file, now just close it
  close(F);
  # now we can automatically submit the job to the queing system
- system("echo bsinf.$i");
+ system("sbatch bootjob.$i");
 }
