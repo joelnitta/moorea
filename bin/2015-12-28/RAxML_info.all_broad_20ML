@@ -49,3 +49,7 @@ raxmlHPC-PTHREADS -T 8 -m GTRGAMMA -p 12345 -# 20 -s all_broad.aln.phy.reduced -
 Partition: 0 with name: No Name Provided
 Base frequencies: 0.273 0.213 0.247 0.267 
 
+Inference[0]: Time 29786.326561 GAMMA-based likelihood -416502.599158, best rearrangement setting 15
+alpha[0]: 0.435149 rates[0] ac ag at cg ct gt: 1.652076 7.411622 0.658363 1.083676 10.559026 1.000000 
+Inference[1]: Time 26838.114984 GAMMA-based likelihood -416400.810271, best rearrangement setting 20
+alpha[0]: 0.439517 rates[0] ac ag at cg ct gt: 1.650289 7.356941 0.658340 1.064830 10.512692 1.000000 
