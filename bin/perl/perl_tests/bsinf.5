@@ -1,0 +1,11 @@
+#!/bin/bash
+#
+#SBATCH -n 1
+#SBATCH -N 1
+#SBATCH -p davis
+#SBATCH -o examl.out5
+#SBATCH -e examl.err5
+#SBATCH -t 4-0:00
+#
+module load centos6/ExaML-3.0.1
+examl-AVX -t RAxML_parsimonyTree.T5 -m GAMMA -s all_broad.binary -n examl_boot.5
