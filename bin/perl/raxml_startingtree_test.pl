@@ -2,7 +2,7 @@
 use strict;
 use warnings;
 #base name of bootstrap replicate file names
-my $bsname = "rbcL.phy.reduced.BS";
+my $bsname = "rbcL.phy.BS";
 #parsimony random number seed range
 my $range = 1000000000;
 # loop over 10 bootstrap replicates
