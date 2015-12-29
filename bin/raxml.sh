@@ -18,5 +18,4 @@ module load centos6/RAxML-8.1.15_openmpi-1.6.4_gcc-4.8.0
 raxmlHPC-AVX -y -m GTRCAT -p 12345 -s all_broad.phy -n FullStartingTree
 
 # compute 20 ML trees using reduced alignment with 16 cores, save the best one
-# use "gappy" option (-U)
-raxmlHPC-PTHREADS -T 16 -m GTRGAMMA -p 12345 -U -N 20 -s all_broad.phy.reduced -n all_broad_20ML
+raxmlHPC-PTHREADS -T 16 -m GTRGAMMA -p 12345 -N 20 -s all_broad.phy.reduced -n all_broad_20ML
