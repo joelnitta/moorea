@@ -91,3 +91,9 @@ treepl3 = try cross validation (no need to specify lambda since we're testing di
 2015-12-27 run raxml AGAIN on all_broad. Set n cores to 8 following raxml manual (ca. 4000 alignment patterns / 500 = 8 cores). Set maxtime to 7 days.
 
 2015-12-28 setting n cores to 8 was apparently a bad idea.. first ML search took 15 hours! (instead of ca. 5). Kill job, start again with reduced alignment and back to n=16 cores.
+
+2015-12-29 test out examl_bootstrap script on moorea only rbcL dataset. seems to work.
+run raxml (20 best likelihood trees search) on all_broad. Finished by 2016-01-03.
+
+2016-01-03 added all output folders (2015*, 2016*) to .gitignore. Only track scripts from now on.
+treepl1: run treepl on raxml 2015-12-29 tree to determine which taxa have short branchlengths and need to be trimmed.
