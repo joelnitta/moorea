@@ -3,7 +3,7 @@ use strict;
 use warnings;
 #base name of bootstrap replicate file names
 my $i;
-for($i = 0; $i < 100; $i++)
+for($i = 0; $i < 2; $i++)
  {
  #open a queue submission file that we will populate with commands
  open (F, ">", "bootjob.$i");
@@ -21,7 +21,7 @@ for($i = 0; $i < 100; $i++)
  
  # here we assemble the command line that will execute the Pthreads version of raxmlLight on
  # shared-memory nodes with 48 cores and 48 threads
- print F "examl-AVX -t RAxML_parsimonyTree.T$i -m GAMMA -s all_broad.binary -n examl_boot.$i";
+ print F "examl-AVX -t RAxML_parsimonyTree.T$i -m GAMMA -s all_broad.reduced.binary -n examl_boot.$i";
  # done editing the file, now just close it
  close(F);
  # now we can automatically submit the job to the queing system

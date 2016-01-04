@@ -5,11 +5,11 @@ use warnings;
 my $bsname = "all_broad.phy.BS";
 #parsimony random number seed range
 my $range = 1000000000;
-# lopp over 10 bootstrap replicates
+# loop over 10 bootstrap replicates
 my $i;
 my $random_number;
 my $command;
-for($i = 0; $i < 100; $i++)
+for($i = 0; $i < 10; $i++)
  {
  # generate a random number seed for the randomized stepwise addition parsimony tree building process
  $random_number = int(rand($range));
