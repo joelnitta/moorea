@@ -12,6 +12,7 @@ for($i = 0; $i < 2; $i++)
  print F "#\n";
  print F "#SBATCH -n 1\n"; 
  print F "#SBATCH -N 1\n";
+ print F "#SBATCH --mem=4000\n";
  print F "#SBATCH -p davis\n";
  print F "#SBATCH -o examl.out$i\n";
  print F "#SBATCH -e examl.err$i\n";
