@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-#SBATCH -n 10               			        # Number of cores
+#SBATCH -n 16               			        # Number of cores
 #SBATCH -N 1                			    # Ensure that all cores are on one machine
 #SBATCH -p davis						    # Partition to submit to
 #SBATCH --mem=6000        			        # Memory pool for all cores. Request 6GB
