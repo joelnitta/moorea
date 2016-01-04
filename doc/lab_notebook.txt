@@ -97,3 +97,6 @@ run raxml (20 best likelihood trees search) on all_broad. Finished by 2016-01-03
 
 2016-01-03 added all output folders (2015*, 2016*) to .gitignore. Only track scripts from now on.
 treepl1: run treepl on raxml 2015-12-29 tree to determine which taxa have short branchlengths and need to be trimmed.
+treepl2: run treepl on raxml 2015-12-29 tree to determine rate smoothing parameter (from 0.0001 to 1,000)
+treepl3: run treepl with priming option
+treepl4: final treepl run with optimal rate smoothing and parameters indicated by priming run
