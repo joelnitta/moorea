@@ -5,7 +5,7 @@ use warnings;
 my $bsname = "all_broad.phy.reduced.BS";
 #parsimony random number seed range
 my $range = 1000000000;
-# loop over 10 bootstrap replicates
+# loop over 100 bootstrap replicates
 my $i;
 my $random_number;
 my $command;

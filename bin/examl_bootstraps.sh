@@ -25,14 +25,14 @@ raxmlHPC-AVX -y -m GTRCAT -p 12345 -s all_broad.phy -n FullStartingTree
 # Step 2: parse reduced alignment into binary file for examl
 parse-examl -s all_broad.phy.reduced -m DNA -n all_broad.reduced
 
-# Step 3: generate 10 bootstrap replicates (BS)
+# Step 3: generate 100 bootstrap replicates (BS)
 raxmlHPC-AVX -N 10 -b 12345 -f j -m GTRGAMMA -s all_broad.phy.reduced -n REPS
 
 # Step 4: use perl script to generate MP starting tree from each bootstrap replicate
-perl ../perl/raxml_startingtree.pl
+perl ~/Analysis/moorea/bin/perl/raxml_startingtree.pl
 
 # Step 5: use perl script to submit an examl job for each starting tree
-perl ../perl/examl.pl
+perl ~/Analysis/moorea/bin/perl/examl.pl
 
 # run Steps 6-8 either interactively or as separate script once examl bootstrap runs are done
 

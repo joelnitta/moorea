@@ -3,7 +3,7 @@ use strict;
 use warnings;
 #base name of bootstrap replicate file names
 my $i;
-for($i = 0; $i < 2; $i++)
+for($i = 0; $i < 10; $i++)
  {
  #open a queue submission file that we will populate with commands
  open (F, ">", "bootjob.$i");
@@ -12,11 +12,11 @@ for($i = 0; $i < 2; $i++)
  print F "#\n";
  print F "#SBATCH -n 1\n"; 
  print F "#SBATCH -N 1\n";
- print F "#SBATCH --mem=4000\n";
+ print F "#SBATCH --mem=1000\n";
  print F "#SBATCH -p davis\n";
  print F "#SBATCH -o examl.out$i\n";
  print F "#SBATCH -e examl.err$i\n";
- print F "#SBATCH -t 7-0:00\n";
+ print F "#SBATCH -t 1-0:00\n";
  print F "#\n";
  print F "module load centos6/ExaML-3.0.1\n";
  

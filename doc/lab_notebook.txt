@@ -100,3 +100,7 @@ treepl1: run treepl on raxml 2015-12-29 tree to determine which taxa have short 
 treepl2: run treepl on raxml 2015-12-29 tree to determine rate smoothing parameter (from 0.0001 to 1,000)
 treepl3: run treepl with priming option
 treepl4: final treepl run with optimal rate smoothing and parameters indicated by priming run
+
+2016-01-04 testing examl_bootstrap script
+examl_boot_test1: test on low number of reps for all_broad dataset
+examl_boot_test2: test on 100 reps for rbcL test dataset (rename to "all_broad" for testing purposes)
