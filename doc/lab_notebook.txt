@@ -104,3 +104,5 @@ treepl4: final treepl run with optimal rate smoothing and parameters indicated b
 2016-01-04 testing examl_bootstrap script
 examl_boot_test1: test on low number of reps for all_broad dataset
 examl_boot_test2: test on 100 reps for rbcL test dataset (rename to "all_broad" for testing purposes)
+
+2016-01-13 still trying to get examl_bootstrap script to work (10 reps instead of 100 for now). Everything OK up to examl batch jobs. First one works, subsequent ones fail... maybe something about submitting too many jobs at once? Asking RC for help.
