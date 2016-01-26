@@ -114,4 +114,5 @@ examl_boot_test2: test on 100 reps for rbcL test dataset (rename to "all_broad" 
 
 2016-01-25: testing raxml pthreads bootstrap (on all_broad.reduced alignment) with only 2 replicates to see how much memory is needed. allocate 2gb for 8 cores. takes ~ 5 hr per run.
 
-2016-01-26: still testing. This time specify mem per cpu (300mb ea, equivalent to 8*300 = ) instead of total mem 
+2016-01-26: still testing... This time specify mem per cpu (300mb ea, equivalent to 8*300 = 2.4gb total) instead of total mem... ran out of memory.
+change to 1000mb ea, try again

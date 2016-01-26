@@ -3,7 +3,7 @@
 #SBATCH -n 32 # Number of cores
 #SBATCH -t 7-00:00 # Runtime in D-HH:MM
 #SBATCH -p davis # Partition to submit to
-#SBATCH --mem-per-cpu=300 # Memory pool for each core
+#SBATCH --mem-per-cpu=1000 # Memory pool for each core
 #SBATCH -o raxml.out # File to which STDOUT will be written
 #SBATCH -e raxml.err # File to which STDERR will be written
 #SBATCH --mail-type=ALL # Type of email notification- BEGIN,END,FAIL,ALL
