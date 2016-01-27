@@ -117,3 +117,9 @@ examl_boot_test2: test on 100 reps for rbcL test dataset (rename to "all_broad" 
 2016-01-26: still testing... This time specify mem per cpu (300mb ea, equivalent to 8*300 = 2.4gb total) instead of total mem... ran out of memory.
 change to 1000mb ea, try again
 2016-01-26-2: same as above, but try 500mb ea
+
+2016-01-27: same as above, try 750 mb ea
+
+2016-01-27-2: finally figure out how to run MPI on davis partition. Need to specify --nodelist=holydavis01
+2016-01-27-3: Now run raxml_MPI-2.sh with 8 processes * 8 cores = 64 processes total, 1 gb ea. Crashed for some reason...
+try again with 7 process * 8 cores = 56 processes total, 1gb ea. crashed again.
