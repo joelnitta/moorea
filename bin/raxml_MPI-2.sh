@@ -1,11 +1,12 @@
 #!/bin/bash
 #
 #SBATCH -n 32 # Number of cores
-#SBATCH -t 7-00:00 # Runtime in D-HH:MM
+#SBATCH --nodelist=holydavis01
+#SBATCH -t 10-00:00 # Runtime in D-HH:MM
 #SBATCH -p davis # Partition to submit to
-#SBATCH --mem-per-cpu=750 # Memory pool for each core
-#SBATCH -o raxml.out # File to which STDOUT will be written
-#SBATCH -e raxml.err # File to which STDERR will be written
+#SBATCH --mem-per-cpu=1000 # Memory pool for each core
+#SBATCH -o raxml_%j.out # File to which STDOUT will be written
+#SBATCH -e raxml_%j.err # File to which STDERR will be written
 #SBATCH --mail-type=ALL # Type of email notification- BEGIN,END,FAIL,ALL
 #SBATCH --mail-user=jnitta@fas.harvard.edu # Email to which notifications will be sent
 
