@@ -132,3 +132,8 @@ Should finish in ca. 5 days.
 Run in interactive mode, using raxml_writeboot_interactive.sh
 
 2016-02-02: raxml_MPI-3 normal bootstrap from 2016-01-29 finished. Write bootstrap to 2015-12-29 tree. Update raxml_writeboot_interactive script.
+
+2016-02-11: run treepl on reduced taxon sampling (leptosporangiates only, as in Schuettpelz).
+treepl1: cross validation
+treepl2: priming
+treepl3: final run
