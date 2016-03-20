@@ -15,7 +15,8 @@ module load centos6/RAxML-8.1.15_openmpi-1.6.4_gcc-4.8.0
 
 # Step 1: generate randomized stepwise addition parsimony tree with RAxML using full alignment
 # only doing this to automatically generate "reduced" alignment with identical seqs removed
-raxmlHPC-AVX -y -m GTRCAT -p 12345 -s ../../data/microsorum_plastid.phy -n FullStartingTree
+# so only need to do it once
+# raxmlHPC-AVX -y -m GTRCAT -p 12345 -s ../../data/microsorum_plastid.phy -n FullStartingTree
 
 # compute 100 ML trees using reduced alignment with 16 cores, save the best one
 raxmlHPC-PTHREADS -T 16 -m GTRGAMMA -p 12345 -N 100 -s ../../data/microsorum_plastid.phy.reduced -n microsorum_100ML
