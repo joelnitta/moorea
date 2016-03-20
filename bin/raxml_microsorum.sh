@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-#SBATCH -n 16                     # Number of cores
+#SBATCH -n 2                     # Number of cores
 #SBATCH -N 1                      # Ensure that all cores are on one machine
 #SBATCH -p davis                  # Partition to submit to
 #SBATCH --mem=32000               # Memory pool for all cores (see also --mem-per-cpu)
@@ -18,5 +18,5 @@ module load centos6/RAxML-8.1.15_openmpi-1.6.4_gcc-4.8.0
 # so only need to do it once
 # raxmlHPC-AVX -y -m GTRCAT -p 12345 -s ../../data/microsorum_plastid.phy -n FullStartingTree
 
-# compute 100 ML trees using reduced alignment with 16 cores, save the best one
-raxmlHPC-PTHREADS -T 16 -m GTRGAMMA -p 12345 -N 100 -s ../../data/microsorum_plastid.phy.reduced -n microsorum_100ML
+# compute 50 ML trees using reduced alignment with 2 cores, save the best one
+raxmlHPC-PTHREADS -T 2 -m GTRGAMMA -p 12345 -N 50 -s ../../data/microsorum_plastid.phy.reduced -n microsorum_50ML
