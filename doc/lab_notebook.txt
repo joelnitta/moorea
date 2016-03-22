@@ -137,3 +137,10 @@ Run in interactive mode, using raxml_writeboot_interactive.sh
 treepl1: cross validation
 treepl2: priming
 treepl3: final run
+
+2016-03-20: run raxml best ML search on 50 or 100 trees on gapCp, microsorum plastid, without bootstrap.
+Don't use these.
+
+2016-03-21: run raxml rapid search including best ML and bootstrap in single step. Include option to run either on full alignment or reduced alignment with identical seqs removed.
+Find that running on full alignment doesn't slow down significantly, so use this.
+Create "trash" directory, move old raxml scripts to it.
