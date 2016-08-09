@@ -133,6 +133,11 @@ Run in interactive mode, using raxml_writeboot_interactive.sh
 
 2016-02-02: raxml_MPI-3 normal bootstrap from 2016-01-29 finished. Write bootstrap to 2015-12-29 tree. Update raxml_writeboot_interactive script.
 
+2016-08-09: Running new Microsorum analysis. Deleted old datafiles, but kept copy by adding "2016-03-21" to end of datafile and including in 2016-03-21 folder in output.
+Run 1: rapid analysis on alignment including up to Asplenium as outgroup. When run finished, moved alignments from data folder to bin output folder so I can run a new analysis on a different alignment
+Run 2: run rapid analysis on smaller outgroups (only polygrammoids)
+Run 3: increase number of bootstrap replicates to 1000
+
 2016-02-11: run treepl on reduced taxon sampling (leptosporangiates only, as in Schuettpelz).
 treepl1: cross validation
 treepl2: priming
