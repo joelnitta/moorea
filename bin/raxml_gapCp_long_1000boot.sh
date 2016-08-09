@@ -13,8 +13,5 @@
 # load RAxML
 module load centos6/RAxML-8.1.15_openmpi-1.6.4_gcc-4.8.0
 
-# compute 20 ML trees using reduced alignment with 16 cores, save the best one
-raxmlHPC-PTHREADS -T 16 -m GTRGAMMA -p 12345 -N 20 -s all_broad.phy.reduced -n all_broad_20ML
-
 # using full alignment
-raxmlHPC-PTHREADS -T 16 -f a -m GTRGAMMA -p 12345 -x 12345 -# 1000 -s ~/Analysis/moorea/data/gapCp_long.phy -n gapCp_long 
+raxmlHPC-PTHREADS -T 16 -f a -m GTRGAMMA -p 12345 -x 12345 -# 1000 -s ~/Analysis/moorea/data/gapCp_long.phy -n gapCp_long
