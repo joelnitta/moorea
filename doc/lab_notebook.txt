@@ -149,3 +149,6 @@ Don't use these.
 2016-03-21: run raxml rapid search including best ML and bootstrap in single step. Include option to run either on full alignment or reduced alignment with identical seqs removed.
 Find that running on full alignment doesn't slow down significantly, so use this.
 Create "trash" directory, move old raxml scripts to it.
+
+2016-08-17: Run microsorum analysis on plastid alignments. one for each region, two concatendated.
+After first run, realized that one sequence in alignment was wrong (JNG3220 instead of JNG 3221.) Fixed and ran again (folders with _2 at end)
