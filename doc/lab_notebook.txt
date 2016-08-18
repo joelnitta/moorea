@@ -133,11 +133,6 @@ Run in interactive mode, using raxml_writeboot_interactive.sh
 
 2016-02-02: raxml_MPI-3 normal bootstrap from 2016-01-29 finished. Write bootstrap to 2015-12-29 tree. Update raxml_writeboot_interactive script.
 
-2016-08-09: Running new Microsorum analysis. Deleted old datafiles, but kept copy by adding "2016-03-21" to end of datafile and including in 2016-03-21 folder in output.
-Run 1: rapid analysis on alignment including up to Asplenium as outgroup. When run finished, moved alignments from data folder to bin output folder so I can run a new analysis on a different alignment
-Run 2: run rapid analysis on smaller outgroups (only polygrammoids)
-Run 3: increase number of bootstrap replicates to 1000
-
 2016-02-11: run treepl on reduced taxon sampling (leptosporangiates only, as in Schuettpelz).
 treepl1: cross validation
 treepl2: priming
@@ -150,5 +145,16 @@ Don't use these.
 Find that running on full alignment doesn't slow down significantly, so use this.
 Create "trash" directory, move old raxml scripts to it.
 
+2016-08-09: Running new Microsorum analysis. Deleted old datafiles, but kept copy by adding "2016-03-21" to end of datafile and including in 2016-03-21 folder in output.
+Run 1: rapid analysis on alignment including up to Asplenium as outgroup. When run finished, moved alignments from data folder to bin output folder so I can run a new analysis on a different alignment
+Run 2: run rapid analysis on smaller outgroups (only polygrammoids)
+Run 3: increase number of bootstrap replicates to 1000
+
 2016-08-17: Run microsorum analysis on plastid alignments. one for each region, two concatendated.
 After first run, realized that one sequence in alignment was wrong (JNG3220 instead of JNG 3221.) Fixed and ran again (folders with _2 at end)
+
+2016-08-18: Found another very small typo in Microsorum plastid aligments, after receiving email from Alan Smith re: varieties of M. spectrum. Fixed M. spectrum as follows:
+Microsorum_spectrum (rbcL EU482968 trnLF EU483065) -> Microsorum_spectrum_var_spectrum_1
+Microsorum_spectrum_var_pentadactylum_1 (rbcL EU482967 trnLF EU483064) -> Microsorum_spectrum_var_spectrum_2
+Microsorum_spectrum_var_pentadactylum_2 (JNG3221) -> Microsorum_spectrum_var_pentadactylum
+Fix original species names, export alignment from genbank again, and run all four raxmL analyses again.
