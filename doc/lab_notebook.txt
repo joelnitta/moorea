@@ -158,3 +158,5 @@ Microsorum_spectrum (rbcL EU482968 trnLF EU483065) -> Microsorum_spectrum_var_sp
 Microsorum_spectrum_var_pentadactylum_1 (rbcL EU482967 trnLF EU483064) -> Microsorum_spectrum_var_spectrum_2
 Microsorum_spectrum_var_pentadactylum_2 (JNG3221) -> Microsorum_spectrum_var_pentadactylum
 Fix original species names, export alignment from genbank again, and run all four raxmL analyses again.
+
+2016-08-20: found MORE errors in naming of genbank OTUs in plastid alignments, so make new alignments and run again. Hoping this is the last.
