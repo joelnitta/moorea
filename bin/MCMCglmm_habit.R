@@ -1,5 +1,5 @@
 # run general linear mixed model including phylogeny to test quant traits vs. growth habit
-
+# install.packages("MCMCglmm", lib="~/apps/R", repos="http://cran.us.r-project.org")
 library(ape)
 library(MCMCglmm)
 
@@ -95,8 +95,8 @@ summary(test.model)
 
 results.df <- summary_to_csv(test.model)
 
-write.csv (results.df, file="mcmcglmm_habit_results.csv")
+write.csv (results.df, file=paste("bin/",Sys.Date(),"/","mcmcglmm_habit_results.csv",sep=""))
 
-pdf(file="mcmcgmm_habit_trace.pdf")
+pdf(file=paste("bin/",Sys.Date(),"/","mcmcglmm_habit_trace.pdf",sep=""))
 plot(test.model$Sol, auto.layout=F)
 dev.off()
