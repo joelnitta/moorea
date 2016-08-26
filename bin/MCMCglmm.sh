@@ -12,4 +12,4 @@
 
 source new-modules.sh
 module load R
-R CMD BATCH --quiet --no-restore --no-save ~/Analysis/moorea/bin/MCMCglmm_habit.R MCMCglmm_habit_R.out
+R CMD BATCH --quiet --no-restore --no-save ~/Analysis/moorea/bin/MCMCglmm_habit_loop.R MCMCglmm_habit_R.out
