@@ -160,3 +160,6 @@ Microsorum_spectrum_var_pentadactylum_2 (JNG3221) -> Microsorum_spectrum_var_pen
 Fix original species names, export alignment from genbank again, and run all four raxmL analyses again.
 
 2016-08-20: found MORE errors in naming of genbank OTUs in plastid alignments, so make new alignments and run again. Hoping this is the last.
+
+2016-08-26: Run MCMCglmm R script using shell. Right now doing single loop through all traits, but would be much faster to run one job for each in parallel.
+Tried increasing number of cores per job, but not any faster, so just use one per.

@@ -69,8 +69,7 @@ for (i in 1:length(traits.test)) {
 # 5,000,000 takes about 2 hr? (recommended number in tutorial)
 # http://www.mpcm-evolution.org/practice/online-practical-material-chapter-11/chapter-11-1-simple-model-mcmcglmm
 # set to 600,000 (about 1 hr) to test on cluster
-# num <- 600000
-num <- 10000
+num <- 5000000
 
 # define new prior list. Need one G for each random effect, one R for each fixed effect
 my.prior<-list(G=list(G1=list(V=1,nu=0.02)),
