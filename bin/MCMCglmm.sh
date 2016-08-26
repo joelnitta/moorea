@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-#SBATCH -n 2                     # Number of cores
+#SBATCH -n 1                     # Number of cores
 #SBATCH -N 1                      # Ensure that all cores are on one machine
 #SBATCH -p davis                  # Partition to submit to
 #SBATCH --mem=5000               # Memory pool for all cores (see also --mem-per-cpu)
@@ -12,4 +12,4 @@
 
 source new-modules.sh
 module load R
-R CMD BATCH --quiet --no-restore --no-save ~/Analysis/moorea/bin/MCMCglmm_habit.R MCMCglmm_habit_R_%j.out
+R CMD BATCH --quiet --no-restore --no-save ~/Analysis/moorea/bin/MCMCglmm_habit.R MCMCglmm_habit_R.out
