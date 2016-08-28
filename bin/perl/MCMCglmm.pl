@@ -3,7 +3,7 @@ use strict;
 use warnings;
 #base name of bootstrap replicate file names
 my $i;
-for($i = 0; $i < 8; $i++)
+for($i = 1; $i < 8; $i++)
  {
  #open a queue submission file that we will populate with commands
  open (F, ">", "bootjob.$i");
@@ -12,11 +12,9 @@ for($i = 0; $i < 8; $i++)
  print F "#\n";
  print F "#SBATCH -n 1\n"; 
  print F "#SBATCH -N 1\n";
- print F "#SBATCH --mem=100\n";
+ print F "#SBATCH --mem=5000\n";
  print F "#SBATCH -p davis\n";
- print F "#SBATCH -o MCMCglmm.$i.bash.out\n";
- print F "#SBATCH -e MCMCglmm.$i.bash.err\n";
- print F "#SBATCH -t 1-0:00\n";
+ print F "#SBATCH -t 5-0:00\n";
  print F "#\n";
  # load R module
  print F "source new-modules.sh\n";
