@@ -1069,3 +1069,67 @@ Average Time per Rapid Bootstrap 10.849402 seconds
 
 Starting ML Search ...
 
+Fast ML optimization finished
+
+Fast ML search Time: 11457.809128 seconds
+
+Slow ML Search 0 Likelihood: -18908.690612
+Slow ML Search 1 Likelihood: -18908.690877
+Slow ML Search 2 Likelihood: -18908.971472
+Slow ML Search 3 Likelihood: -18908.971594
+Slow ML Search 4 Likelihood: -18908.998573
+Slow ML Search 5 Likelihood: -18909.011022
+Slow ML Search 6 Likelihood: -18909.010664
+Slow ML Search 7 Likelihood: -18909.012373
+Slow ML Search 8 Likelihood: -18909.015209
+Slow ML Search 9 Likelihood: -18908.664723
+Slow ML optimization finished
+
+Slow ML search Time: 774.432963 seconds
+Thorough ML search Time: 96.382562 seconds
+
+Final ML Optimization Likelihood: -18908.750539
+
+Model Information:
+
+Model Parameters of Partition 0, Name: No Name Provided, Type of Data: DNA
+alpha: 0.323132
+Tree-Length: 2.693084
+rate A <-> C: 1.412242
+rate A <-> G: 5.656465
+rate A <-> T: 0.629450
+rate C <-> G: 0.784277
+rate C <-> T: 7.379891
+rate G <-> T: 1.000000
+
+freq pi(A): 0.271419
+freq pi(C): 0.215012
+freq pi(G): 0.238009
+freq pi(T): 0.275560
+
+
+ML search took 12328.688273 secs or 3.424636 hours
+
+Combined Bootstrap and ML search took 23178.092665 secs or 6.438359 hours
+
+Drawing Bootstrap Support Values on best-scoring ML tree ...
+
+
+
+Found 1 tree in File /n/home04/jnitta/Analysis/moorea/bin/2017-02-01/RAxML_bestTree.microsorum_plastid_either
+
+
+
+Found 1 tree in File /n/home04/jnitta/Analysis/moorea/bin/2017-02-01/RAxML_bestTree.microsorum_plastid_either
+
+Program execution info written to /n/home04/jnitta/Analysis/moorea/bin/2017-02-01/RAxML_info.microsorum_plastid_either
+All 1000 bootstrapped trees written to: /n/home04/jnitta/Analysis/moorea/bin/2017-02-01/RAxML_bootstrap.microsorum_plastid_either
+
+Best-scoring ML tree written to: /n/home04/jnitta/Analysis/moorea/bin/2017-02-01/RAxML_bestTree.microsorum_plastid_either
+
+Best-scoring ML tree with support values written to: /n/home04/jnitta/Analysis/moorea/bin/2017-02-01/RAxML_bipartitions.microsorum_plastid_either
+
+Best-scoring ML tree with support values as branch labels written to: /n/home04/jnitta/Analysis/moorea/bin/2017-02-01/RAxML_bipartitionsBranchLabels.microsorum_plastid_either
+
+Overall execution time for full ML analysis: 23178.468653 secs or 6.438464 hours or 0.268269 days
+
