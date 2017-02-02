@@ -1,7 +1,0 @@
-Loading module centos6/gmp-5.1.1.
-Loading module centos6/mpfr-3.1.2.
-Loading module centos6/mpc-1.0.1.
-Loading module centos6/gcc-4.8.0.
-Loading module centos6/openmpi-1.6.4_gcc-4.8.0.
-Loading module centos6/RAxML-8.1.15_openmpi-1.6.4_gcc-4.8.0.
-slurmstepd: error: *** JOB 54130687 ON holydavis01 CANCELLED AT 2015-12-27T10:23:07 DUE TO TIME LIMIT ***

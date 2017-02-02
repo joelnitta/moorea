@@ -1,1 +1,0 @@
-ncbi_tax_id	gi_number	edited_name

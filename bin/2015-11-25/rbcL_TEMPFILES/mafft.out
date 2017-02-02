@@ -1,62 +1,0 @@
-
-nseq =  38
-distance =  ktuples
-iterate =  0
-cycle =  2
-nthread = 0
-generating 200PAM scoring matrix for nucleotides ... done
-done
-done
-scoremtx = -1
-Gap Penalty = -1.53, +0.00, +0.00
-
-tuplesize = 6, dorp = d
-
-
-Making a distance matrix ..
-    1 / 38   11 / 38   21 / 38   31 / 38
-done.
-
-Constructing a UPGMA tree ... 
-    0 / 38   10 / 38   20 / 38   30 / 38
-done.
-
-Progressive alignment ... 
-STEP     1 / 37 fSTEP     2 / 37 fSTEP     3 / 37 fSTEP     4 / 37 fSTEP     5 / 37 fSTEP     6 / 37 fSTEP     7 / 37 fSTEP     8 / 37 fSTEP     9 / 37 fSTEP    10 / 37 fSTEP    11 / 37 fSTEP    12 / 37 fSTEP    13 / 37 fSTEP    14 / 37 fSTEP    15 / 37 fSTEP    16 / 37 fSTEP    17 / 37 fSTEP    18 / 37 fSTEP    19 / 37 fSTEP    20 / 37 fSTEP    21 / 37 fSTEP    22 / 37 fSTEP    23 / 37 fSTEP    24 / 37 fSTEP    25 / 37 fSTEP    26 / 37 fSTEP    27 / 37 fSTEP    28 / 37 fSTEP    29 / 37 fSTEP    30 / 37 fSTEP    31 / 37 fSTEP    32 / 37 fSTEP    33 / 37 fSTEP    34 / 37 fSTEP    35 / 37 fSTEP    36 / 37 fSTEP    37 / 37 f
-done.
-
-disttbfast (nuc) Version 7.149b alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
-0 thread(s)
-nthread = 0
-blosum 62 / kimura 200
-generating 200PAM scoring matrix for nucleotides ... done
-done
-done
-scoremtx = -1
-Gap Penalty = -1.53, +0.00, +0.00
-Making a distance matrix .. 
-    0 / 37   10 / 37   20 / 37   30 / 37
-done.
-
-Constructing a UPGMA tree ... 
-    0 / 38   10 / 38   20 / 38   30 / 38
-done.
-
-Progressive alignment ... 
-STEP     1 /37 fSTEP     2 /37 fSTEP     3 /37 fSTEP     4 /37 fSTEP     5 /37 fSTEP     6 /37 fSTEP     7 /37 fSTEP     8 /37 fSTEP     9 /37 fSTEP    10 /37 fSTEP    11 /37 fSTEP    12 /37 fSTEP    13 /37 fSTEP    14 /37 fSTEP    15 /37 fSTEP    16 /37 fSTEP    17 /37 fSTEP    18 /37 fSTEP    19 /37 fSTEP    20 /37 fSTEP    21 /37 fSTEP    22 /37 fSTEP    23 /37 fSTEP    24 /37 fSTEP    25 /37 fSTEP    26 /37 fSTEP    27 /37 fSTEP    28 /37 fSTEP    29 /37 fSTEP    30 /37 fSTEP    31 /37 fSTEP    32 /37 fSTEP    33 /37 fSTEP    34 /37 fSTEP    35 /37 fSTEP    36 /37 fSTEP    37 /37 f
-done.
-tbfast (nuc) Version 7.149b alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
-0 thread(s)
-
-
-Strategy:
- FFT-NS-2 (Fast but rough)
- Progressive method (guide trees were built 2 times.)
-
-If unsure which option to use, try 'mafft --auto input > output'.
-For more information, see 'mafft --help', 'mafft --man' and the mafft page.
-
-The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
-It tends to insert more gaps into gap-rich regions than previous versions.
-To disable this change, add the --legacygappenalty option.
-
