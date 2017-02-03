@@ -14,4 +14,4 @@
 module load centos6/RAxML-8.1.15_openmpi-1.6.4_gcc-4.8.0
 
 # compute best ML tree (out of 20?) using reduced alignment with 2 cores, save the best one with bootstrap
-raxmlHPC-PTHREADS -T 2 -f a -m GTRGAMMA -p 12345 -x 12345 -# 1000 -s ~/Analysis/moorea/data/microsorum_plastid_both.phy -n microsorum_plastid_both
+raxmlHPC-PTHREADS -T 2 -f a -m GTRGAMMA -p 12345 -x 12345 -# 1000 -s ~/Analysis/moorea/data/microsorum_plastid_either_rogues_out.phy -n microsorum_plastid_either_rogues_out
