@@ -163,3 +163,7 @@ Fix original species names, export alignment from genbank again, and run all fou
 
 2016-08-26: Run MCMCglmm R script using shell. Right now doing single loop through all traits, but would be much faster to run one job for each in parallel.
 Tried increasing number of cores per job, but not any faster, so just use one per.
+
+2017-02-07: Run raxml_microsorum_plastid on alignments generated using process_genbank_for_microsorum.R copied from R 2017-02-07 output folder.
+
+2017-02-21: Run raxml_microsorum_plastid on alignments generated using process_genbank_for_microsorum.R copied from R 2017-02-21 output folder.
